@@ -10,8 +10,8 @@ description: >
 # NoMac: a Mac for your agent
 
 NoMac gives you a full macOS VM with Xcode and administrator access, billed
-from the user's prepaid credit at $0.80 an hour by the minute. Every Mac is
-deleted when it stops.
+from the user's prepaid credit at 80 US cents an hour, by the minute. Every Mac
+is deleted when it stops.
 
 ## Workflow
 

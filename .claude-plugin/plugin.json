@@ -2,9 +2,22 @@
   "name": "nomac",
   "version": "1.0.0",
   "description": "A real cloud Mac with Xcode for your agent, billed by the minute: start a macOS VM, build and test iOS apps, use the Simulator, move files, ship to TestFlight, then stop the Mac.",
-  "author": { "name": "NoMac", "email": "support@nomac.app", "url": "https://nomac.app" },
+  "author": {
+    "name": "NoMac",
+    "email": "support@nomac.app",
+    "url": "https://nomac.app"
+  },
   "homepage": "https://nomac.app",
   "repository": "https://github.com/gergomiklos/nomac-plugin",
   "license": "MIT",
-  "keywords": ["macos", "xcode", "ios", "simulator", "testflight", "cloud-mac", "mcp"]
+  "keywords": [
+    "macos",
+    "xcode",
+    "ios",
+    "simulator",
+    "testflight",
+    "cloud-mac",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://nomac.app/privacy"
 }
