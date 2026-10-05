@@ -26,7 +26,7 @@ is deleted when it stops.
 4. **Run.** `exec_mac` with an argv, for example
    `["/bin/bash", "-lc", "xcodebuild -scheme App -destination 'platform=iOS Simulator,name=iPhone 17' build"]`.
    A command that finishes within `wait_seconds` returns its output in the
-   same call; pass `wait_seconds: 50` for builds and tests. A longer one
+   same call; set `wait_seconds` to 50 for builds and tests. A longer one
    returns a job ID: poll `get_mac_job`, then `read_mac_output`. Never rerun a
    command to get its output.
 5. **Look.** `read_mac_file` returns PNG and JPEG files as images, for example
