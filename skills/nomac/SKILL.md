@@ -19,18 +19,22 @@ is deleted when it stops.
    on it. Too little: `get_mac_checkout` returns a payment link for the human.
    Never enter payment details yourself; wait until the balance appears.
 2. **Start.** `start_mac` with a stable `request_key`, then poll
-   `get_mac_session` until `ready` (usually under a minute).
+   `get_mac_session` until `ready` (usually under a minute). Its `image` field
+   lists macOS, Xcode, Simulator runtimes and the installed tools (Ruby with
+   CocoaPods and Bundler, xcbeautify, xcodegen, gh, Git LFS, jq).
 3. **Code.** Clone with `exec_mac` (`git clone ...`), write files with
    `write_mac_file`, download with `fetch_to_mac`, or give the human
    `create_mac_upload_link` for a file of up to 2 GB.
 4. **Run.** `exec_mac` with an argv, for example
-   `["/bin/bash", "-lc", "xcodebuild -scheme App -destination 'platform=iOS Simulator,name=iPhone 17' build"]`.
+   `["/bin/bash", "-lc", "xcodebuild -scheme App -destination 'platform=iOS Simulator,name=iPhone 17' build | xcbeautify"]`.
    A command that finishes within `wait_seconds` returns its output in the
    same call; set `wait_seconds` to 50 for builds and tests. A longer one
    returns a job ID: poll `get_mac_job`, then `read_mac_output`. Never rerun a
    command to get its output.
-5. **Look.** `read_mac_file` returns PNG and JPEG files as images, for example
-   a Simulator screenshot from `xcrun simctl io booted screenshot shot.png`.
+5. **Look.** `read_mac_file` returns PNG and JPEG files as images: a
+   Simulator screenshot from `xcrun simctl io booted screenshot shot.png`, or
+   the whole screen from `screencapture -x shot.png`. Commands may also drive
+   apps with AppleScript and System Events without a permission prompt.
    `open_mac_desktop` gives the human the Mac's screen in their browser.
 6. **Results.** `read_mac_file` for small files; `create_mac_download_link`
    for build products and folders (zipped), which keep working after the Mac
