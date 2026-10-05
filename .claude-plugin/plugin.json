@@ -1,5 +1,6 @@
 {
   "name": "nomac",
+  "displayName": "NoMac",
   "version": "1.0.0",
   "description": "A real cloud Mac with Xcode for your agent, billed by the minute: start a macOS VM, build and test iOS apps, use the Simulator, move files, ship to TestFlight, then stop the Mac.",
   "author": {
@@ -19,5 +20,8 @@
     "cloud-mac",
     "mcp"
   ],
-  "privacyPolicyUrl": "https://nomac.app/privacy"
+  "privacyPolicyUrl": "https://nomac.app/privacy",
+  "termsOfServiceUrl": "https://nomac.app/terms",
+  "supportUrl": "https://nomac.app/support",
+  "documentationUrl": "https://nomac.app/install"
 }
