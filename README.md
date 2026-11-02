@@ -19,6 +19,8 @@ Cursor: one click at https://nomac.app/install, or add `https://mcp.nomac.app/mc
 
 Gemini CLI: `gemini extensions install https://github.com/gergomiklos/nomac-plugin`.
 
+Other clients that load the open [Agent Plugins](https://agent-plugins.org) format (Kiro and others) read `plugin.json` and `mcp.json` at the root.
+
 The first tool call opens a browser to sign in at nomac.app. Mac and iPhone time is prepaid credit, billed per minute, with no subscription; credit never expires. Prices: https://nomac.app.
 
 ## What the agent can do
@@ -33,7 +35,7 @@ The first tool call opens a browser to sign in at nomac.app. Mac and iPhone time
 
 From a terminal, the [NoMac CLI](https://www.npmjs.com/package/@nomac/cli) adds `nomac ssh-config`, which lets VS Code, Cursor and Claude Code connect to the Mac over SSH.
 
-Docs: https://nomac.app/install · Agent reference: https://nomac.app/llms.txt · Support: support@nomac.app
+Docs: https://nomac.app/install · Agent reference: https://nomac.app/llms.txt · Support: support@nomac.app · Privacy policy: https://nomac.app/privacy
 
 ## License
 
