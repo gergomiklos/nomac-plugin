@@ -1,6 +1,6 @@
 {
   "name": "nomac",
-  "description": "NoMac: a real cloud Mac with Xcode for your agent.",
+  "description": "NoMac: a cloud Mac with Xcode and a cloud iPhone for your agent.",
   "owner": {
     "name": "NoMac",
     "email": "support@nomac.app"
@@ -9,7 +9,7 @@
     {
       "name": "nomac",
       "source": "./",
-      "description": "A real cloud Mac with Xcode for your agent, billed by the minute.",
+      "description": "A cloud Mac with Xcode and a cloud iPhone for your agent, billed per minute.",
       "category": "development",
       "homepage": "https://nomac.app"
     }

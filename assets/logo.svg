@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+  <!-- NoMac logo (owner, October 28, 2026): the Command key in Apple blue on a light blue rounded tile. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4f1ff"/>
+      <stop offset="1" stop-color="#d6e8ff"/>
+    </linearGradient>
+  </defs>
+  <path d="M50,0 C86,0 100,14 100,50 C100,86 86,100 50,100 C14,100 0,86 0,50 C0,14 14,0 50,0 Z" fill="url(#bg)"/>
+  <g transform="translate(50 50) scale(1.14) translate(-50 -50)">
+    <path d="M41 41 V32 A9 9 0 1 0 32 41 H68 A9 9 0 1 0 59 32 V68 A9 9 0 1 0 68 59 H32 A9 9 0 1 0 41 68 Z" fill="none" stroke="#007aff" stroke-width="7.5" stroke-linejoin="round"/>
+  </g>
+</svg>

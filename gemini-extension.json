@@ -1,0 +1,11 @@
+{
+  "name": "nomac",
+  "version": "1.2.0",
+  "description": "A cloud Mac with Xcode and a cloud iPhone for your agent, billed per minute: build and test iOS apps on macOS, run them on a cloud iPhone Simulator.",
+  "mcpServers": {
+    "nomac": {
+      "httpUrl": "https://mcp.nomac.app/mcp"
+    }
+  },
+  "contextFileName": "skills/nomac/SKILL.md"
+}
